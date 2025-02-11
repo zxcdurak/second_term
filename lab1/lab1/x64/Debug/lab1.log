@@ -1,3 +1,2 @@
 ﻿  lab1.cpp
-C:\Users\Admin\source\repos\lab1\lab1\lab1.cpp(23,19): warning C4244: return: преобразование "double" в "int", возможна потеря данных
   lab1.vcxproj -> C:\Users\Admin\source\repos\lab1\x64\Debug\lab1.exe
