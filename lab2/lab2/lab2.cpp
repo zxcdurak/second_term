@@ -3,16 +3,16 @@
 
 #define length_array 10
 
-typedef struct el { int value; struct el* next; } list_elem;
+struct el { int value; struct el* next; };
 
-list_elem* generate_list(int n) {
+el* generate_list(int n) {
 
-    list_elem* head = nullptr;
-    list_elem* curr = nullptr;
-    list_elem* prev = nullptr;
+    el* head = nullptr;
+    el* curr = nullptr;
+    el* prev = nullptr;
 
     for (int i = 0; i < length_array; i++) {
-        curr = new list_elem;
+        curr = new el;
         curr->value = i;
         curr->next = nullptr;
         if (i == 0) {
@@ -26,8 +26,8 @@ list_elem* generate_list(int n) {
     return head;
 }
 
-void print_list(list_elem* head) {
-    list_elem* curr = head;
+void print_list(el* head) {
+    el* curr = head;
     while (curr != nullptr) {
         std::cout << curr->value << "\n";
         curr = curr->next;
@@ -35,10 +35,10 @@ void print_list(list_elem* head) {
     std::cout << std::endl;
 }
 
-void delete_list(list_elem* head) {
-    list_elem* curr = head;
+void delete_list(el* head) {
+    el* curr = head;
     while (curr != nullptr) {
-        list_elem* next = curr->next;
+        el* next = curr->next;
         delete curr;
         curr = next;
     }
@@ -75,7 +75,7 @@ void exercise_1() {
 }
 
 void exercise_2() {
-    list_elem* head;
+    el* head;
     head = generate_list(length_array);
     print_list(head);
     delete_list(head);
@@ -87,5 +87,4 @@ int main()
     exercise_2();
     return 0;
 }
-
 

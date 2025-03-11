@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Admin\\source\\repos\\laba4\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{846F4672-D735-4CE4-81E5-D321F7D379B3}|laba4\\laba4.vcxproj|C:\\Users\\Admin\\source\\repos\\laba4\\laba4\\laba4.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{846F4672-D735-4CE4-81E5-D321F7D379B3}|laba4\\laba4.vcxproj|solutionrelative:laba4\\laba4.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "laba4.cpp",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\laba4\\laba4\\laba4.cpp",
+              "RelativeDocumentMoniker": "laba4\\laba4.cpp",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\laba4\\laba4\\laba4.cpp",
+              "RelativeToolTip": "laba4\\laba4.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-13T04:33:19.689Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

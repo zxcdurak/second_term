@@ -1,0 +1,5 @@
+﻿  lab5.cpp
+C:\Users\Admin\source\repos\lab5\lab5\lab5.cpp(74,37): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Admin\source\repos\lab5\lab5\lab5.cpp(128,29): warning C4477: "fprintf": в строке форматирования "%s" требуется аргумент типа "char *", но вариативный аргумент "1" имеет тип "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
+C:\Users\Admin\source\repos\lab5\lab5\lab5.cpp(145,30): warning C4477: "fprintf": в строке форматирования "%s" требуется аргумент типа "char *", но вариативный аргумент "1" имеет тип "std::string"
+  lab5.vcxproj -> C:\Users\Admin\source\repos\lab5\x64\Debug\lab5.exe

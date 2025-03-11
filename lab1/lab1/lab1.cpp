@@ -32,14 +32,14 @@ void values_function_print(float start) {
 int main()
 {
     setlocale(LC_ALL, "ru");
-   /* float start;
+    float start;
     std::cin >> start;
-    values_function_print(start);*/
-    int s, n, max;
+    values_function_print(start);
+   /* int s, n, max;
     std::cout << "введите max\n";
     std::cin >> max;
     Fibonachi(max, n, s);
-    std::cout << "n:" << n << " s:" << s;
+    std::cout << "n:" << n << " s:" << s;*/
     return 0;
 }
 
